@@ -677,8 +677,8 @@ boolean intendToSteer = 0;        //Do We Intend to Steer?
               bno08xHeading = bno08xHeading + 360;
             }
                 
-            //bno08xRoll = (bno08x.getRoll()) * CONST_180_DIVIDED_BY_PI; //Convert roll to degrees
-            bno08xRoll = (bno08x.getPitch())* CONST_180_DIVIDED_BY_PI; // Convert pitch to degrees
+            bno08xRoll = (bno08x.getRoll()) * CONST_180_DIVIDED_BY_PI; //Convert roll to degrees
+            //bno08xRoll = (bno08x.getPitch())* CONST_180_DIVIDED_BY_PI; // Convert pitch to degrees
     
             bno08xHeading10x = (int16_t)(bno08xHeading * 10);
             bno08xRoll10x = (int16_t)(bno08xRoll * 10);
